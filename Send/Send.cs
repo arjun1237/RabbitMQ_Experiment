@@ -21,7 +21,7 @@ namespace Send
                                      autoDelete: false,
                                      arguments: null);
 
-                string message = "Hello World!";
+                string message = "This is Arjun here.";
                 var body = Encoding.UTF8.GetBytes(message);
 
                 channel.BasicPublish(exchange: "",
